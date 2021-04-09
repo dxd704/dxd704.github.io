@@ -58,7 +58,33 @@ nav a {
   text-decoration: none;
 }
 
+nav a:visited {
+  color: #FF0000;
+}
+
+nav a:active {
+  font-style: italic;
+}
+
 nav a:hover {
+  color: #DFDFDF;
+  background-color: #EF3340;
+  padding: 16px
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #FF0000;
+}
+
+a:active {
+  font-style: italic;
+}
+
+a:hover {
   color: #DFDFDF;
   background-color: #EF3340;
   padding: 16px
